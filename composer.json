@@ -1,0 +1,35 @@
+{
+    "name": "davis/flarum-ext-customfooter",
+    "description": "Allows Addition of Custom Footer",
+    "keywords": ["flarum", "davis", "customization", "footer"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Connor Davis",
+            "email": "davis@produes.co"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/dav-is/flarum-ext-customfooter/issues",
+        "source": "https://github.com/dav-is/flarum-ext-customfooter"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davis\\CustomFooter\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Custom Footer",
+            "icon": {
+                "name": "columns",
+                "backgroundColor": "#26A65B",
+                "color": "#ecf0f1"
+            }
+        }
+    }
+}
