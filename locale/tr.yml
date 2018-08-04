@@ -1,0 +1,8 @@
+davis-customfooter:
+  admin:
+    settings:
+      title: Kişiselleştirilmiş Alt Alan Konfigürasyonu
+      customtext: Alt alan için yazı.
+      heightofheader: Alt alan yüksekliği.
+      cssofheader: CSS
+      jsofheader: JS
